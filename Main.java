@@ -9,7 +9,7 @@ public class Main
 	
 	public static int triangleType(int s1, int s2, int s3) {
 	    if (s1 == s2 && s2 == s3) {
-	        return 1; //if all sides are equal, return 1 for equilateral
+	        return 1; //if all sides are equal, return 1 for equilateral 
 	    }
 	    else if (s1 == s2 || s2 == s3 || s3 == s1) {
 	        return 2; //if only 2 sides are equal, return 2 for isoceles        
